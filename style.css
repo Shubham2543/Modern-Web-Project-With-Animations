@@ -1,0 +1,290 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "matter";
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+*::selection{
+    color: #fff;
+    background-color: #000;
+}
+
+#main{
+    width: 100%;
+}
+
+#home{
+    width: 100%;
+    min-height: 100vh;
+    /* border: 2px solid red; */
+}
+
+#nav{
+    width: 100%;
+    padding: 4vw 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav img{
+    width: 8vw;
+    font-weight: 900;
+}
+#nav a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+    font-size: 1.2vw;
+}
+
+#nav #right{
+    display: flex;
+    align-items: baseline;
+    gap: 3vw;
+}
+
+#nav i{
+    font-size: 2vw;
+}
+
+#home #homemain{
+    width: 100%;
+    padding: 15vw 15vw;
+    /* background-color: red; */
+}
+
+#homemain h1{
+    font-weight: 500;
+    /* letter-spacing: -.1vw; */
+    font-size: 1.5vw;
+}
+
+.headings{
+    display: flex;
+    gap: 3vw;
+}
+
+#homemain .headings h1{
+    font-family: monospace;
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+    font-weight: 600;
+    font-size: 6vw;
+    line-height: 1;
+    /* letter-spacing: -8px; */
+}
+
+#homemain .headings h1:hover{
+    color: #000;
+
+}
+
+#homelast{
+    width: 70%;
+    padding: 0vw 15vw;
+}
+
+#homelast p{
+    font-size: 1.5vw;
+    font-weight: 100;
+    letter-spacing: -.080vw;
+    line-height: 2vw;
+}
+
+#homelast p::selection{
+    color: #fff;
+    background-color: #000;
+}
+
+#featured{
+    padding: 10vw 15vw;
+}
+#fheading h1{
+    /* line-height: 3vw; */
+    font-size: 4vw;
+    font-weight: 500;
+}
+
+#fheading h1:nth-child(2){
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+}
+
+#fimages{
+    width: 100%;
+    height: 100vh;
+    margin-top: 5vw;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#fleft{
+    overflow: hidden;
+    width: 45%;
+    height: inherit;
+    /* border: 1px solid blue; */
+}
+
+.fleftelm{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fleftelm h3{
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+
+.fleftelm h1{
+    font-size: 2.5vw;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 1.5vw 0vw;
+}
+
+.fleftelm h4{
+    opacity: .4;
+}
+
+#fright{
+    width: 45%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#fright .images img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+
+
+.btndiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btndiv button{
+    padding: 1.3vw 2.5vw;
+    border-radius: 100px;
+    border: 2px solid #e6e6e6;
+    background-color: #fff;
+    font-size: 1vw;
+    font-weight: 900;
+    /* letter-spacing: -.1vw; */
+}
+
+.btndiv button:hover{
+    color: #fff;
+    background-color: #000;
+    transition: 0.5s;
+}
+
+#dev{
+    width: 100%;
+    padding: 5vw 15vw;
+}
+
+#dev h1{
+    font-size: 3.8vw;
+    font-weight: 500;
+    width: 60%;
+    line-height: 1;
+}
+
+#dev p{
+    font-size: 1.5vh;
+    margin-top: 3vw;
+    /* letter-spacing: -.7px; */
+}
+
+#slides{
+    padding: 3vw 5vw;
+    display: flex;
+    justify-content: space-around;
+}
+.slide {
+    width: 30%;
+}
+
+.slide .img{
+    border-radius: 10px;
+    width: 100%;
+    height: 30vh;
+    background-color: #abe4dc;
+}
+
+.slide .tag{
+    width: fit-content;
+    border-radius: 100px;
+    padding: 1vh 1.5vw;
+    background-color: #eaeaea;
+    margin: 20px 0px;
+}
+
+.slide h3{
+    font-size: 1.4vh;
+    font-weight: 400;
+    letter-spacing: -.5px;
+    line-height: 1;
+}
+
+#memo{
+    padding: 5vw 15vw;
+    width: 100%;
+}
+
+#memo h1{
+    width: 40%;
+}
+
+
+#slides2{
+    display: flex;
+    padding: 5vw 10vw;
+    justify-content: space-around;
+}
+
+.slide2{
+    width: 20%;
+}
+.slide2 .img{
+    border-radius: 10px;
+    width: 100%;
+    height: 30vh;
+    background-color: #abe4dc;
+}
+
+.slide2 .tag{
+    width: fit-content;
+    border-radius: 100px;
+    padding: .5vw 1.5vw;
+    background-color: #eaeaea;
+    margin: 20px 0px;
+}
+
+.slide2 h3{
+    font-size: 1.4vh;
+    font-weight: 400;
+    letter-spacing: -.5px;
+    line-height: 1;
+}
+
+.hem{
+    height: 200px;
+}
